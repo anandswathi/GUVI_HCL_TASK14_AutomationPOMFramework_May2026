@@ -1,0 +1,306 @@
+2026-05-20 22:33:20,639 | INFO | ======================================================================
+2026-05-20 22:33:20,640 | INFO | Launching Edge browser for test.
+2026-05-20 22:33:21,565 | INFO | Browser launched and maximised.
+2026-05-20 22:33:21,566 | INFO | Fixture: opening login page.
+2026-05-20 22:33:25,479 | INFO | Fixture: login page ready. URL=https://www.zenclass.in/login/
+2026-05-20 22:33:25,482 | INFO | ScreenshotManager initialized
+2026-05-20 22:33:25,483 | INFO | TEST START: test_positive_valid_login_redirects_away_from_signin
+2026-05-20 22:33:25,485 | INFO | Logging in with valid credentials: '${SEN_USERNAME}'
+2026-05-20 22:33:28,098 | INFO | Post-login URL: https://www.zenclass.in/login/
+2026-05-20 22:33:28,308 | INFO | Screenshot saved: C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK14_AutomationPOMFramework_May2026\AutomationPOMFramework_GUVI_Zen_portal\utils\..\screenshots\positive_valid_login_redirect_2026-05-20_22-33-28.png
+2026-05-20 22:33:28,308 | ERROR | FAIL: 
+  FAIL: Still on login page after valid login.
+  URL: https://www.zenclass.in/login/
+assert 'login' not in 'https://www...ss.in/login/'
+  
+  'login' is contained here:
+    https://www.zenclass.in/login/
+  ?                         +++++
+2026-05-20 22:33:28,535 | INFO | ScreenshotManager initialized
+2026-05-20 22:33:28,717 | INFO | Screenshot saved: C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK14_AutomationPOMFramework_May2026\AutomationPOMFramework_GUVI_Zen_portal\utils\..\screenshots\tests_test_zen_portal_login.py_TestSuccessfulLogin_test_positive_valid_login_redirects_away_from_signin_2026-05-20_22-33-28.png
+2026-05-20 22:33:28,717 | ERROR | TEST FAILED: tests/test_zen_portal_login.py::TestSuccessfulLogin::test_positive_valid_login_redirects_away_from_signin
+2026-05-20 22:33:28,722 | ERROR | Current URL at failure: https://www.zenclass.in/login/
+2026-05-20 22:33:28,723 | ERROR | Screenshot captured: C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK14_AutomationPOMFramework_May2026\AutomationPOMFramework_GUVI_Zen_portal\utils\..\screenshots\tests_test_zen_portal_login.py_TestSuccessfulLogin_test_positive_valid_login_redirects_away_from_signin_2026-05-20_22-33-28.png
+2026-05-20 22:33:28,723 | INFO | Screenshot attached to HTML report.
+2026-05-20 22:33:28,724 | ERROR | FAILED  : tests/test_zen_portal_login.py::TestSuccessfulLogin::test_positive_valid_login_redirects_away_from_signin
+2026-05-20 22:33:28,724 | INFO | Quitting browser after test.
+2026-05-20 22:33:31,011 | INFO | ======================================================================
+2026-05-20 22:33:31,018 | INFO | ======================================================================
+2026-05-20 22:33:31,018 | INFO | Launching Edge browser for test.
+2026-05-20 22:33:31,792 | INFO | Browser launched and maximised.
+2026-05-20 22:33:31,793 | INFO | Fixture: opening login page.
+2026-05-20 22:33:35,800 | INFO | Fixture: login page ready. URL=https://www.zenclass.in/login/
+2026-05-20 22:33:35,802 | INFO | ScreenshotManager initialized
+2026-05-20 22:33:35,802 | INFO | TEST START: test_positive_dashboard_accessible_after_login
+2026-05-20 22:34:09,482 | INFO | Dashboard accessible: False
+2026-05-20 22:34:09,700 | INFO | Screenshot saved: C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK14_AutomationPOMFramework_May2026\AutomationPOMFramework_GUVI_Zen_portal\utils\..\screenshots\positive_dashboard_accessible_2026-05-20_22-34-09.png
+2026-05-20 22:34:09,701 | ERROR | FAIL: 
+  FAIL: Dashboard not accessible after valid login.
+  URL: https://www.zenclass.in/login/
+assert False
+2026-05-20 22:34:30,308 | INFO | ScreenshotManager initialized
+2026-05-20 22:34:30,501 | INFO | Screenshot saved: C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK14_AutomationPOMFramework_May2026\AutomationPOMFramework_GUVI_Zen_portal\utils\..\screenshots\tests_test_zen_portal_login.py_TestSuccessfulLogin_test_positive_dashboard_accessible_after_login_2026-05-20_22-34-30.png
+2026-05-20 22:34:30,501 | ERROR | TEST FAILED: tests/test_zen_portal_login.py::TestSuccessfulLogin::test_positive_dashboard_accessible_after_login
+2026-05-20 22:34:30,505 | ERROR | Current URL at failure: https://www.zenclass.in/login/
+2026-05-20 22:34:30,506 | ERROR | Screenshot captured: C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK14_AutomationPOMFramework_May2026\AutomationPOMFramework_GUVI_Zen_portal\utils\..\screenshots\tests_test_zen_portal_login.py_TestSuccessfulLogin_test_positive_dashboard_accessible_after_login_2026-05-20_22-34-30.png
+2026-05-20 22:34:30,506 | INFO | Screenshot attached to HTML report.
+2026-05-20 22:34:30,506 | ERROR | FAILED  : tests/test_zen_portal_login.py::TestSuccessfulLogin::test_positive_dashboard_accessible_after_login
+2026-05-20 22:34:30,507 | INFO | Quitting browser after test.
+2026-05-20 22:34:32,740 | INFO | ======================================================================
+2026-05-20 22:34:32,750 | INFO | ======================================================================
+2026-05-20 22:34:32,751 | INFO | Launching Edge browser for test.
+2026-05-20 22:34:33,482 | INFO | Browser launched and maximised.
+2026-05-20 22:34:33,483 | INFO | Fixture: opening login page.
+2026-05-20 22:34:37,263 | INFO | Fixture: login page ready. URL=https://www.zenclass.in/login/
+2026-05-20 22:34:37,265 | INFO | ScreenshotManager initialized
+2026-05-20 22:34:37,265 | INFO | TEST START: test_negative_invalid_credentials_stay_on_login_page
+2026-05-20 22:34:37,266 | INFO | Attempting invalid login: 'invalid_user@guvi.com'
+2026-05-20 22:34:39,863 | INFO | URL after invalid login: https://www.zenclass.in/login/
+2026-05-20 22:34:39,869 | INFO | PASS: Invalid credentials correctly blocked.
+2026-05-20 22:34:39,870 | INFO | PASSED  : tests/test_zen_portal_login.py::TestUnsuccessfulLogin::test_negative_invalid_credentials_stay_on_login_page
+2026-05-20 22:34:39,870 | INFO | Quitting browser after test.
+2026-05-20 22:34:42,153 | INFO | ======================================================================
+2026-05-20 22:34:42,156 | INFO | ======================================================================
+2026-05-20 22:34:42,160 | INFO | Launching Edge browser for test.
+2026-05-20 22:34:43,006 | INFO | Browser launched and maximised.
+2026-05-20 22:34:43,007 | INFO | Fixture: opening login page.
+2026-05-20 22:34:46,765 | INFO | Fixture: login page ready. URL=https://www.zenclass.in/login/
+2026-05-20 22:34:46,767 | INFO | ScreenshotManager initialized
+2026-05-20 22:34:46,767 | INFO | TEST START: test_negative_empty_credentials_stay_on_login_page
+2026-05-20 22:34:46,768 | INFO | Submitting login form with empty credentials.
+2026-05-20 22:34:48,224 | INFO | PASS: Empty credentials correctly blocked.
+2026-05-20 22:34:48,224 | INFO | PASSED  : tests/test_zen_portal_login.py::TestUnsuccessfulLogin::test_negative_empty_credentials_stay_on_login_page
+2026-05-20 22:34:48,225 | INFO | Quitting browser after test.
+2026-05-20 22:34:50,410 | INFO | ======================================================================
+2026-05-20 22:34:50,414 | INFO | ======================================================================
+2026-05-20 22:34:50,415 | INFO | Launching Edge browser for test.
+2026-05-20 22:34:51,134 | INFO | Browser launched and maximised.
+2026-05-20 22:34:51,134 | INFO | Fixture: opening login page.
+2026-05-20 22:34:54,850 | INFO | Fixture: login page ready. URL=https://www.zenclass.in/login/
+2026-05-20 22:34:54,852 | INFO | ScreenshotManager initialized
+2026-05-20 22:34:54,852 | INFO | TEST START: test_negative_valid_email_wrong_password
+2026-05-20 22:34:54,854 | INFO | Login: email='${SEN_USERNAME}', password=WRONG
+2026-05-20 22:34:57,535 | INFO | PASS: Correct email + wrong password blocked.
+2026-05-20 22:34:57,536 | INFO | PASSED  : tests/test_zen_portal_login.py::TestUnsuccessfulLogin::test_negative_valid_email_wrong_password
+2026-05-20 22:34:57,537 | INFO | Quitting browser after test.
+2026-05-20 22:34:59,832 | INFO | ======================================================================
+2026-05-20 22:34:59,835 | INFO | ======================================================================
+2026-05-20 22:34:59,836 | INFO | Launching Edge browser for test.
+2026-05-20 22:35:00,538 | INFO | Browser launched and maximised.
+2026-05-20 22:35:00,539 | INFO | Fixture: opening login page.
+2026-05-20 22:35:04,804 | INFO | Fixture: login page ready. URL=https://www.zenclass.in/login/
+2026-05-20 22:35:04,805 | INFO | ScreenshotManager initialized
+2026-05-20 22:35:04,805 | INFO | TEST START: test_negative_whitespace_credentials_blocked
+2026-05-20 22:35:04,806 | INFO | Submitting with whitespace-only credentials.
+2026-05-20 22:35:06,239 | INFO | PASS: Whitespace credentials correctly blocked.
+2026-05-20 22:35:06,240 | INFO | PASSED  : tests/test_zen_portal_login.py::TestUnsuccessfulLogin::test_negative_whitespace_credentials_blocked
+2026-05-20 22:35:06,241 | INFO | Quitting browser after test.
+2026-05-20 22:35:08,525 | INFO | ======================================================================
+2026-05-20 22:35:08,530 | INFO | ======================================================================
+2026-05-20 22:35:08,532 | INFO | Launching Edge browser for test.
+2026-05-20 22:35:09,322 | INFO | Browser launched and maximised.
+2026-05-20 22:35:09,323 | INFO | Fixture: opening login page.
+2026-05-20 22:35:13,095 | INFO | Fixture: login page ready. URL=https://www.zenclass.in/login/
+2026-05-20 22:35:13,099 | INFO | ScreenshotManager initialized
+2026-05-20 22:35:13,099 | INFO | TEST START: test_positive_email_field_visible_and_enabled
+2026-05-20 22:35:13,186 | INFO | Email field — displayed=True, enabled=True
+2026-05-20 22:35:13,186 | INFO | PASS: Email field is visible and enabled.
+2026-05-20 22:35:13,187 | INFO | PASSED  : tests/test_zen_portal_login.py::TestInputFields::test_positive_email_field_visible_and_enabled
+2026-05-20 22:35:13,187 | INFO | Quitting browser after test.
+2026-05-20 22:35:15,422 | INFO | ======================================================================
+2026-05-20 22:35:15,425 | INFO | ======================================================================
+2026-05-20 22:35:15,426 | INFO | Launching Edge browser for test.
+2026-05-20 22:35:16,150 | INFO | Browser launched and maximised.
+2026-05-20 22:35:16,151 | INFO | Fixture: opening login page.
+2026-05-20 22:35:19,970 | INFO | Fixture: login page ready. URL=https://www.zenclass.in/login/
+2026-05-20 22:35:19,971 | INFO | ScreenshotManager initialized
+2026-05-20 22:35:19,972 | INFO | TEST START: test_positive_password_field_visible_and_enabled
+2026-05-20 22:35:20,033 | INFO | Password field — displayed=True, enabled=True
+2026-05-20 22:35:20,034 | INFO | PASS: Password field is visible and enabled.
+2026-05-20 22:35:20,034 | INFO | PASSED  : tests/test_zen_portal_login.py::TestInputFields::test_positive_password_field_visible_and_enabled
+2026-05-20 22:35:20,035 | INFO | Quitting browser after test.
+2026-05-20 22:35:22,276 | INFO | ======================================================================
+2026-05-20 22:35:22,278 | INFO | ======================================================================
+2026-05-20 22:35:22,278 | INFO | Launching Edge browser for test.
+2026-05-20 22:35:22,977 | INFO | Browser launched and maximised.
+2026-05-20 22:35:22,978 | INFO | Fixture: opening login page.
+2026-05-20 22:35:27,384 | INFO | Fixture: login page ready. URL=https://www.zenclass.in/login/
+2026-05-20 22:35:27,386 | INFO | ScreenshotManager initialized
+2026-05-20 22:35:27,386 | INFO | TEST START: test_positive_email_field_accepts_input
+2026-05-20 22:35:27,718 | INFO | Email field value after input: 'testuser@example.com'
+2026-05-20 22:35:27,719 | INFO | PASS: Email field accepts and retains typed input.
+2026-05-20 22:35:27,719 | INFO | PASSED  : tests/test_zen_portal_login.py::TestInputFields::test_positive_email_field_accepts_input
+2026-05-20 22:35:27,720 | INFO | Quitting browser after test.
+2026-05-20 22:35:29,954 | INFO | ======================================================================
+2026-05-20 22:35:29,956 | INFO | ======================================================================
+2026-05-20 22:35:29,956 | INFO | Launching Edge browser for test.
+2026-05-20 22:35:30,711 | INFO | Browser launched and maximised.
+2026-05-20 22:35:30,712 | INFO | Fixture: opening login page.
+2026-05-20 22:35:34,500 | INFO | Fixture: login page ready. URL=https://www.zenclass.in/login/
+2026-05-20 22:35:34,501 | INFO | ScreenshotManager initialized
+2026-05-20 22:35:34,502 | INFO | TEST START: test_positive_password_field_accepts_input
+2026-05-20 22:35:34,733 | INFO | Password field has value (length masked).
+2026-05-20 22:35:34,733 | INFO | PASS: Password field accepts and retains typed input.
+2026-05-20 22:35:34,734 | INFO | PASSED  : tests/test_zen_portal_login.py::TestInputFields::test_positive_password_field_accepts_input
+2026-05-20 22:35:34,734 | INFO | Quitting browser after test.
+2026-05-20 22:35:36,941 | INFO | ======================================================================
+2026-05-20 22:35:36,945 | INFO | ======================================================================
+2026-05-20 22:35:36,945 | INFO | Launching Edge browser for test.
+2026-05-20 22:35:37,680 | INFO | Browser launched and maximised.
+2026-05-20 22:35:37,681 | INFO | Fixture: opening login page.
+2026-05-20 22:35:41,400 | INFO | Fixture: login page ready. URL=https://www.zenclass.in/login/
+2026-05-20 22:35:41,401 | INFO | ScreenshotManager initialized
+2026-05-20 22:35:41,402 | INFO | TEST START: test_positive_submit_button_visible_and_enabled
+2026-05-20 22:35:41,883 | INFO | Login -> Sign in button — displayed=True, enabled=True
+2026-05-20 22:35:41,883 | INFO | PASS: Login -> Sign in button is visible and enabled.
+2026-05-20 22:35:41,884 | INFO | PASSED  : tests/test_zen_portal_login.py::TestSubmitButton::test_positive_submit_button_visible_and_enabled
+2026-05-20 22:35:41,885 | INFO | Quitting browser after test.
+2026-05-20 22:35:44,088 | INFO | ======================================================================
+2026-05-20 22:35:44,090 | INFO | ======================================================================
+2026-05-20 22:35:44,090 | INFO | Launching Edge browser for test.
+2026-05-20 22:35:44,849 | INFO | Browser launched and maximised.
+2026-05-20 22:35:44,849 | INFO | Fixture: opening login page.
+2026-05-20 22:35:47,005 | INFO | Fixture: login page ready. URL=https://www.zenclass.in/login/
+2026-05-20 22:35:47,007 | INFO | ScreenshotManager initialized
+2026-05-20 22:35:47,007 | INFO | TEST START: test_positive_submit_valid_credentials_succeeds
+2026-05-20 22:35:49,454 | INFO | URL after submit: https://www.zenclass.in/login/
+2026-05-20 22:35:49,804 | INFO | Screenshot saved: C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK14_AutomationPOMFramework_May2026\AutomationPOMFramework_GUVI_Zen_portal\utils\..\screenshots\positive_submit_valid_credentials_2026-05-20_22-35-49.png
+2026-05-20 22:35:49,804 | ERROR | FAIL: 
+  FAIL: Submit did not navigate away from login.
+    URL: https://www.zenclass.in/login/
+assert 'login' not in 'https://www...ss.in/login/'
+  
+  'login' is contained here:
+    https://www.zenclass.in/login/
+  ?                         +++++
+2026-05-20 22:35:49,850 | INFO | ScreenshotManager initialized
+2026-05-20 22:35:50,101 | INFO | Screenshot saved: C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK14_AutomationPOMFramework_May2026\AutomationPOMFramework_GUVI_Zen_portal\utils\..\screenshots\tests_test_zen_portal_login.py_TestSubmitButton_test_positive_submit_valid_credentials_succeeds_2026-05-20_22-35-49.png
+2026-05-20 22:35:50,101 | ERROR | TEST FAILED: tests/test_zen_portal_login.py::TestSubmitButton::test_positive_submit_valid_credentials_succeeds
+2026-05-20 22:35:50,109 | ERROR | Current URL at failure: https://www.zenclass.in/login/
+2026-05-20 22:35:50,178 | ERROR | Screenshot captured: C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK14_AutomationPOMFramework_May2026\AutomationPOMFramework_GUVI_Zen_portal\utils\..\screenshots\tests_test_zen_portal_login.py_TestSubmitButton_test_positive_submit_valid_credentials_succeeds_2026-05-20_22-35-49.png
+2026-05-20 22:35:50,178 | INFO | Screenshot attached to HTML report.
+2026-05-20 22:35:50,179 | ERROR | FAILED  : tests/test_zen_portal_login.py::TestSubmitButton::test_positive_submit_valid_credentials_succeeds
+2026-05-20 22:35:50,179 | INFO | Quitting browser after test.
+2026-05-20 22:35:52,413 | INFO | ======================================================================
+2026-05-20 22:35:52,416 | INFO | ======================================================================
+2026-05-20 22:35:52,417 | INFO | Launching Edge browser for test.
+2026-05-20 22:35:53,152 | INFO | Browser launched and maximised.
+2026-05-20 22:35:53,152 | INFO | Fixture: opening login page.
+2026-05-20 22:35:57,227 | INFO | Fixture: login page ready. URL=https://www.zenclass.in/login/
+2026-05-20 22:35:57,228 | INFO | ScreenshotManager initialized
+2026-05-20 22:35:57,229 | INFO | TEST START: test_negative_submit_empty_fields_stays_on_page
+2026-05-20 22:35:57,229 | INFO | Clicking Submit with all fields empty.
+2026-05-20 22:35:58,359 | INFO | PASS: Empty submit correctly stayed on login page.
+2026-05-20 22:35:58,359 | INFO | PASSED  : tests/test_zen_portal_login.py::TestSubmitButton::test_negative_submit_empty_fields_stays_on_page
+2026-05-20 22:35:58,360 | INFO | Quitting browser after test.
+2026-05-20 22:36:00,651 | INFO | ======================================================================
+2026-05-20 22:36:00,655 | INFO | ======================================================================
+2026-05-20 22:36:00,656 | INFO | Launching Edge browser for test.
+2026-05-20 22:36:01,423 | INFO | Browser launched and maximised.
+2026-05-20 22:36:01,423 | INFO | Fixture: opening login page.
+2026-05-20 22:36:06,846 | INFO | Fixture: login page ready. URL=https://www.zenclass.in/login/
+2026-05-20 22:36:06,848 | INFO | ScreenshotManager initialized
+2026-05-20 22:36:06,849 | INFO | TEST START: test_negative_submit_invalid_credentials_blocked
+2026-05-20 22:36:30,122 | INFO | PASS: Invalid credentials submit correctly blocked.
+2026-05-20 22:36:30,123 | INFO | PASSED  : tests/test_zen_portal_login.py::TestSubmitButton::test_negative_submit_invalid_credentials_blocked
+2026-05-20 22:36:30,126 | INFO | Quitting browser after test.
+2026-05-20 22:36:32,450 | INFO | ======================================================================
+2026-05-20 22:36:32,452 | INFO | ======================================================================
+2026-05-20 22:36:32,452 | INFO | Launching Edge browser for test.
+2026-05-20 22:36:33,178 | INFO | Browser launched and maximised.
+2026-05-20 22:36:33,178 | INFO | Fixture: opening login page.
+2026-05-20 22:36:39,646 | INFO | Fixture: login page ready. URL=https://www.zenclass.in/login/
+2026-05-20 22:36:39,648 | INFO | ScreenshotManager initialized
+2026-05-20 22:36:39,649 | INFO | TEST START: test_negative_submit_empty_email_field_and_password_field_displays_error_msg
+2026-05-20 22:36:39,814 | INFO | Email field value after input: ''
+2026-05-20 22:36:39,923 | INFO | Password field has value (length masked).
+2026-05-20 22:36:50,471 | INFO | Email error: 'no error value'
+2026-05-20 22:36:50,471 | INFO | Password error: 'Email and password required!'
+2026-05-20 22:36:50,472 | INFO | PASS: Submit with Empty Email field and Password field displays appropriate error messages under password field.
+2026-05-20 22:36:50,473 | INFO | PASSED  : tests/test_zen_portal_login.py::TestSubmitButton::test_negative_submit_empty_email_field_and_password_field_displays_error_msg
+2026-05-20 22:36:50,473 | INFO | Quitting browser after test.
+2026-05-20 22:36:52,681 | INFO | ======================================================================
+2026-05-20 22:36:52,683 | INFO | ======================================================================
+2026-05-20 22:36:52,683 | INFO | Launching Edge browser for test.
+2026-05-20 22:36:53,441 | INFO | Browser launched and maximised.
+2026-05-20 22:36:53,442 | INFO | Fixture: opening login page.
+2026-05-20 22:36:55,558 | INFO | Fixture: login page ready. URL=https://www.zenclass.in/login/
+2026-05-20 22:36:55,559 | INFO | ScreenshotManager initialized
+2026-05-20 22:36:55,560 | INFO | TEST START: test_negative_submit_empty_email_field_and_filled_password_field_displays_error_msg
+2026-05-20 22:36:55,727 | INFO | Email field value after input: ''
+2026-05-20 22:36:55,946 | INFO | Password field has value (length masked).
+2026-05-20 22:37:06,118 | INFO | Email error: 'Email required!'
+2026-05-20 22:37:06,118 | INFO | Password error: 'no error value'
+2026-05-20 22:37:06,119 | INFO | PASS: Submit with Empty Email field and filled Password field displays appropriate error messages under email field.
+2026-05-20 22:37:06,120 | INFO | PASSED  : tests/test_zen_portal_login.py::TestSubmitButton::test_negative_submit_empty_email_field_and_filled_password_field_displays_error_msg
+2026-05-20 22:37:06,120 | INFO | Quitting browser after test.
+2026-05-20 22:37:08,409 | INFO | ======================================================================
+2026-05-20 22:37:08,411 | INFO | ======================================================================
+2026-05-20 22:37:08,412 | INFO | Launching Edge browser for test.
+2026-05-20 22:37:09,268 | INFO | Browser launched and maximised.
+2026-05-20 22:37:09,269 | INFO | Fixture: opening login page.
+2026-05-20 22:37:13,133 | INFO | Fixture: login page ready. URL=https://www.zenclass.in/login/
+2026-05-20 22:37:13,135 | INFO | ScreenshotManager initialized
+2026-05-20 22:37:13,135 | INFO | TEST START: test_negative_submit_filled_email_field_and_empty_password_field_displays_error_msg
+2026-05-20 22:37:13,411 | INFO | Email field value after input: 'testuser@example.com'
+2026-05-20 22:37:13,570 | INFO | Password field has value (length masked).
+2026-05-20 22:37:24,081 | INFO | Email error: 'no error value'
+2026-05-20 22:37:24,082 | INFO | Password error: 'Password required!'
+2026-05-20 22:37:24,082 | INFO | PASS: Submit with filled Empty Email field and empty Password field displays appropriate error messages under password field.
+2026-05-20 22:37:24,083 | INFO | PASSED  : tests/test_zen_portal_login.py::TestSubmitButton::test_negative_submit_filled_email_field_and_empty_password_field_displays_error_msg
+2026-05-20 22:37:24,084 | INFO | Quitting browser after test.
+2026-05-20 22:37:26,348 | INFO | ======================================================================
+2026-05-20 22:37:26,350 | INFO | ======================================================================
+2026-05-20 22:37:26,351 | INFO | Launching Edge browser for test.
+2026-05-20 22:37:27,130 | INFO | Browser launched and maximised.
+2026-05-20 22:37:27,131 | INFO | Fixture: performing login to reach dashboard.
+2026-05-20 22:37:33,589 | INFO | Fixture: logged in. URL=https://www.zenclass.in/login/
+2026-05-20 22:37:33,590 | INFO | ScreenshotManager initialized
+2026-05-20 22:37:33,591 | INFO | TEST START: test_positive_logout_redirects_to_login_page
+2026-05-20 22:37:33,595 | INFO | Pre-logout URL: https://www.zenclass.in/login/
+2026-05-20 22:38:04,863 | INFO | Screenshot saved: C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK14_AutomationPOMFramework_May2026\AutomationPOMFramework_GUVI_Zen_portal\utils\..\screenshots\positive_logout_redirect_2026-05-20_22-38-04.png
+2026-05-20 22:38:04,996 | INFO | ScreenshotManager initialized
+2026-05-20 22:38:05,197 | INFO | Screenshot saved: C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK14_AutomationPOMFramework_May2026\AutomationPOMFramework_GUVI_Zen_portal\utils\..\screenshots\tests_test_zen_portal_login.py_TestLogout_test_positive_logout_redirects_to_login_page_2026-05-20_22-38-04.png
+2026-05-20 22:38:05,197 | ERROR | TEST FAILED: tests/test_zen_portal_login.py::TestLogout::test_positive_logout_redirects_to_login_page
+2026-05-20 22:38:05,203 | ERROR | Current URL at failure: https://www.zenclass.in/login/
+2026-05-20 22:38:05,204 | ERROR | Screenshot captured: C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK14_AutomationPOMFramework_May2026\AutomationPOMFramework_GUVI_Zen_portal\utils\..\screenshots\tests_test_zen_portal_login.py_TestLogout_test_positive_logout_redirects_to_login_page_2026-05-20_22-38-04.png
+2026-05-20 22:38:05,204 | INFO | Screenshot attached to HTML report.
+2026-05-20 22:38:05,204 | ERROR | FAILED  : tests/test_zen_portal_login.py::TestLogout::test_positive_logout_redirects_to_login_page
+2026-05-20 22:38:05,205 | INFO | Quitting browser after test.
+2026-05-20 22:38:07,471 | INFO | ======================================================================
+2026-05-20 22:38:07,481 | INFO | ======================================================================
+2026-05-20 22:38:07,482 | INFO | Launching Edge browser for test.
+2026-05-20 22:38:08,273 | INFO | Browser launched and maximised.
+2026-05-20 22:38:08,274 | INFO | Fixture: performing login to reach dashboard.
+2026-05-20 22:38:14,986 | INFO | Fixture: logged in. URL=https://www.zenclass.in/login/
+2026-05-20 22:38:14,988 | INFO | ScreenshotManager initialized
+2026-05-20 22:38:14,988 | INFO | TEST START: test_positive_dashboard_inaccessible_after_logout
+2026-05-20 22:38:14,995 | INFO | Dashboard URL before logout: https://www.zenclass.in/login/
+2026-05-20 22:38:46,159 | INFO | Screenshot saved: C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK14_AutomationPOMFramework_May2026\AutomationPOMFramework_GUVI_Zen_portal\utils\..\screenshots\positive_dashboard_inaccessible_2026-05-20_22-38-45.png
+2026-05-20 22:38:46,211 | INFO | ScreenshotManager initialized
+2026-05-20 22:38:46,393 | INFO | Screenshot saved: C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK14_AutomationPOMFramework_May2026\AutomationPOMFramework_GUVI_Zen_portal\utils\..\screenshots\tests_test_zen_portal_login.py_TestLogout_test_positive_dashboard_inaccessible_after_logout_2026-05-20_22-38-46.png
+2026-05-20 22:38:46,393 | ERROR | TEST FAILED: tests/test_zen_portal_login.py::TestLogout::test_positive_dashboard_inaccessible_after_logout
+2026-05-20 22:38:46,399 | ERROR | Current URL at failure: https://www.zenclass.in/login/
+2026-05-20 22:38:46,399 | ERROR | Screenshot captured: C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK14_AutomationPOMFramework_May2026\AutomationPOMFramework_GUVI_Zen_portal\utils\..\screenshots\tests_test_zen_portal_login.py_TestLogout_test_positive_dashboard_inaccessible_after_logout_2026-05-20_22-38-46.png
+2026-05-20 22:38:46,399 | INFO | Screenshot attached to HTML report.
+2026-05-20 22:38:46,399 | ERROR | FAILED  : tests/test_zen_portal_login.py::TestLogout::test_positive_dashboard_inaccessible_after_logout
+2026-05-20 22:38:46,400 | INFO | Quitting browser after test.
+2026-05-20 22:38:48,683 | INFO | ======================================================================
+2026-05-20 22:38:48,695 | INFO | ======================================================================
+2026-05-20 22:38:48,698 | INFO | Launching Edge browser for test.
+2026-05-20 22:38:49,390 | INFO | Browser launched and maximised.
+2026-05-20 22:38:49,390 | INFO | Fixture: performing login to reach dashboard.
+2026-05-20 22:38:53,960 | INFO | Fixture: logged in. URL=https://www.zenclass.in/login/
+2026-05-20 22:38:53,961 | INFO | ScreenshotManager initialized
+2026-05-20 22:38:53,962 | INFO | TEST START: test_negative_session_cleared_after_logout
+2026-05-20 22:39:14,722 | INFO | is_logged_in before logout: False
+2026-05-20 22:39:46,128 | INFO | Screenshot saved: C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK14_AutomationPOMFramework_May2026\AutomationPOMFramework_GUVI_Zen_portal\utils\..\screenshots\negative_session_cleared_2026-05-20_22-39-45.png
+2026-05-20 22:39:46,252 | INFO | ScreenshotManager initialized
+2026-05-20 22:39:46,462 | INFO | Screenshot saved: C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK14_AutomationPOMFramework_May2026\AutomationPOMFramework_GUVI_Zen_portal\utils\..\screenshots\tests_test_zen_portal_login.py_TestLogout_test_negative_session_cleared_after_logout_2026-05-20_22-39-46.png
+2026-05-20 22:39:46,463 | ERROR | TEST FAILED: tests/test_zen_portal_login.py::TestLogout::test_negative_session_cleared_after_logout
+2026-05-20 22:39:46,470 | ERROR | Current URL at failure: https://www.zenclass.in/login/
+2026-05-20 22:39:46,471 | ERROR | Screenshot captured: C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK14_AutomationPOMFramework_May2026\AutomationPOMFramework_GUVI_Zen_portal\utils\..\screenshots\tests_test_zen_portal_login.py_TestLogout_test_negative_session_cleared_after_logout_2026-05-20_22-39-46.png
+2026-05-20 22:39:46,472 | INFO | Screenshot attached to HTML report.
+2026-05-20 22:39:46,473 | ERROR | FAILED  : tests/test_zen_portal_login.py::TestLogout::test_negative_session_cleared_after_logout
+2026-05-20 22:39:46,473 | INFO | Quitting browser after test.
+2026-05-20 22:39:48,756 | INFO | ======================================================================

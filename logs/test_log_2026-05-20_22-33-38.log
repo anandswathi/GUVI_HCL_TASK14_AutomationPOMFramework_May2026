@@ -1,0 +1,75 @@
+2026-05-20 22:33:38,367 | DEBUG | Checking if new launch alert popup is displayed.
+2026-05-20 22:33:38,368 | DEBUG | Waiting for VISIBLE: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:33:48,687 | ERROR | TIMEOUT — not visible after 10s: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:33:48,690 | DEBUG | Element not found for is_displayed: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:33:48,700 | DEBUG | Current URL: https://www.zenclass.in/login/
+2026-05-20 22:33:48,700 | DEBUG | Waiting for VISIBLE: ('xpath', "//p[contains(text(),'Dashboard')]")
+2026-05-20 22:33:59,167 | ERROR | TIMEOUT — not visible after 10s: ('xpath', "//p[contains(text(),'Dashboard')]")
+2026-05-20 22:33:59,167 | DEBUG | Element not found for is_displayed: ('xpath', "//p[contains(text(),'Dashboard')]")
+2026-05-20 22:33:59,167 | DEBUG | Waiting for VISIBLE: ('xpath', "//p[contains(text(),'Welcome')]")
+2026-05-20 22:34:09,481 | ERROR | TIMEOUT — not visible after 10s: ('xpath', "//p[contains(text(),'Welcome')]")
+2026-05-20 22:34:09,482 | DEBUG | Element not found for is_displayed: ('xpath', "//p[contains(text(),'Welcome')]")
+2026-05-20 22:34:09,482 | INFO | is_logged_in=False | URL ok=False, Dashboard Indicator=False, Welcome Msg=False
+2026-05-20 22:34:09,490 | DEBUG | Current URL: https://www.zenclass.in/login/
+2026-05-20 22:34:09,701 | INFO | Starting logout flow.
+2026-05-20 22:34:09,702 | INFO | Attempting to click Logout button.
+2026-05-20 22:34:09,702 | INFO | Clicking: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:34:09,702 | DEBUG | Waiting for CLICKABLE: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:34:19,993 | ERROR | TIMEOUT — not clickable after 10s: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:34:19,993 | WARNING | Logout button not visible — opening profile dropdown first.
+2026-05-20 22:34:19,994 | INFO | Clicking profile dropdown to reveal Logout option.
+2026-05-20 22:34:19,994 | INFO | Clicking: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:34:19,994 | DEBUG | Waiting for CLICKABLE: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:34:30,250 | ERROR | TIMEOUT — not clickable after 10s: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:37:33,595 | DEBUG | Current URL: https://www.zenclass.in/login/
+2026-05-20 22:37:33,596 | DEBUG | Checking if new launch alert popup is displayed.
+2026-05-20 22:37:33,596 | DEBUG | Waiting for VISIBLE: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:37:44,044 | ERROR | TIMEOUT — not visible after 10s: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:37:44,045 | DEBUG | Element not found for is_displayed: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:37:44,045 | INFO | Starting logout flow.
+2026-05-20 22:37:44,045 | INFO | Attempting to click Logout button.
+2026-05-20 22:37:44,046 | INFO | Clicking: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:37:44,046 | DEBUG | Waiting for CLICKABLE: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:37:54,339 | ERROR | TIMEOUT — not clickable after 10s: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:37:54,340 | WARNING | Logout button not visible — opening profile dropdown first.
+2026-05-20 22:37:54,341 | INFO | Clicking profile dropdown to reveal Logout option.
+2026-05-20 22:37:54,341 | INFO | Clicking: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:37:54,342 | DEBUG | Waiting for CLICKABLE: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:38:04,667 | ERROR | TIMEOUT — not clickable after 10s: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:38:14,995 | DEBUG | Current URL: https://www.zenclass.in/login/
+2026-05-20 22:38:14,996 | DEBUG | Checking if new launch alert popup is displayed.
+2026-05-20 22:38:14,996 | DEBUG | Waiting for VISIBLE: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:38:25,282 | ERROR | TIMEOUT — not visible after 10s: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:38:25,282 | DEBUG | Element not found for is_displayed: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:38:25,283 | INFO | Starting logout flow.
+2026-05-20 22:38:25,283 | INFO | Attempting to click Logout button.
+2026-05-20 22:38:25,283 | INFO | Clicking: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:38:25,283 | DEBUG | Waiting for CLICKABLE: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:38:35,580 | ERROR | TIMEOUT — not clickable after 10s: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:38:35,581 | WARNING | Logout button not visible — opening profile dropdown first.
+2026-05-20 22:38:35,581 | INFO | Clicking profile dropdown to reveal Logout option.
+2026-05-20 22:38:35,582 | INFO | Clicking: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:38:35,582 | DEBUG | Waiting for CLICKABLE: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:38:45,942 | ERROR | TIMEOUT — not clickable after 10s: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:38:53,971 | DEBUG | Current URL: https://www.zenclass.in/login/
+2026-05-20 22:38:53,971 | DEBUG | Waiting for VISIBLE: ('xpath', "//p[contains(text(),'Dashboard')]")
+2026-05-20 22:39:04,319 | ERROR | TIMEOUT — not visible after 10s: ('xpath', "//p[contains(text(),'Dashboard')]")
+2026-05-20 22:39:04,319 | DEBUG | Element not found for is_displayed: ('xpath', "//p[contains(text(),'Dashboard')]")
+2026-05-20 22:39:04,320 | DEBUG | Waiting for VISIBLE: ('xpath', "//p[contains(text(),'Welcome')]")
+2026-05-20 22:39:14,720 | ERROR | TIMEOUT — not visible after 10s: ('xpath', "//p[contains(text(),'Welcome')]")
+2026-05-20 22:39:14,720 | DEBUG | Element not found for is_displayed: ('xpath', "//p[contains(text(),'Welcome')]")
+2026-05-20 22:39:14,721 | INFO | is_logged_in=False | URL ok=False, Dashboard Indicator=False, Welcome Msg=False
+2026-05-20 22:39:14,722 | DEBUG | Checking if new launch alert popup is displayed.
+2026-05-20 22:39:14,722 | DEBUG | Waiting for VISIBLE: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:39:25,133 | ERROR | TIMEOUT — not visible after 10s: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:39:25,134 | DEBUG | Element not found for is_displayed: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:39:25,134 | INFO | Starting logout flow.
+2026-05-20 22:39:25,134 | INFO | Attempting to click Logout button.
+2026-05-20 22:39:25,135 | INFO | Clicking: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:39:25,135 | DEBUG | Waiting for CLICKABLE: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:39:35,508 | ERROR | TIMEOUT — not clickable after 10s: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:39:35,509 | WARNING | Logout button not visible — opening profile dropdown first.
+2026-05-20 22:39:35,510 | INFO | Clicking profile dropdown to reveal Logout option.
+2026-05-20 22:39:35,510 | INFO | Clicking: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:39:35,511 | DEBUG | Waiting for CLICKABLE: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:39:45,925 | ERROR | TIMEOUT — not clickable after 10s: ('xpath', "//p[contains(@class,'avatar-profile-name')]")

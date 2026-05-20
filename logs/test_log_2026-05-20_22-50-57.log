@@ -1,0 +1,171 @@
+2026-05-20 22:50:57,966 | DEBUG | Checking if new launch alert popup is displayed.
+2026-05-20 22:50:57,966 | DEBUG | Waiting for VISIBLE: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:50:57,995 | DEBUG | Element VISIBLE: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:50:58,009 | DEBUG | is_displayed = True: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:50:58,010 | DEBUG | Checking if popup close button is displayed and enabled.
+2026-05-20 22:50:58,010 | DEBUG | Waiting for VISIBLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:50:58,032 | DEBUG | Element VISIBLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:50:58,055 | DEBUG | is_displayed = True: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:50:58,055 | DEBUG | Waiting for VISIBLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:50:58,082 | DEBUG | Element VISIBLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:50:58,094 | DEBUG | is_enabled = True: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:50:58,094 | INFO | Popup Close Button — displayed=True, enabled=True
+2026-05-20 22:50:58,094 | INFO | Clicking: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:50:58,095 | DEBUG | Waiting for CLICKABLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:50:58,128 | DEBUG | Element CLICKABLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:50:58,209 | DEBUG | Click successful: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:50:58,218 | DEBUG | Current URL: https://www.zenclass.in/dashboard
+2026-05-20 22:50:58,219 | DEBUG | Waiting for VISIBLE: ('xpath', "//p[contains(text(),'Dashboard')]")
+2026-05-20 22:50:58,244 | DEBUG | Element VISIBLE: ('xpath', "//p[contains(text(),'Dashboard')]")
+2026-05-20 22:50:58,256 | DEBUG | is_displayed = True: ('xpath', "//p[contains(text(),'Dashboard')]")
+2026-05-20 22:50:58,256 | DEBUG | Waiting for VISIBLE: ('xpath', "//p[contains(text(),'Welcome')]")
+2026-05-20 22:50:58,282 | DEBUG | Element VISIBLE: ('xpath', "//p[contains(text(),'Welcome')]")
+2026-05-20 22:50:58,294 | DEBUG | is_displayed = True: ('xpath', "//p[contains(text(),'Welcome')]")
+2026-05-20 22:50:58,294 | INFO | is_logged_in=True | URL ok=True, Dashboard Indicator=True, Welcome Msg=True
+2026-05-20 22:50:58,295 | INFO | Starting logout flow.
+2026-05-20 22:50:58,295 | INFO | Attempting to click Logout button.
+2026-05-20 22:50:58,295 | INFO | Clicking: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:50:58,295 | DEBUG | Waiting for CLICKABLE: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:51:08,706 | ERROR | TIMEOUT — not clickable after 10s: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:51:08,706 | WARNING | Logout button not visible — opening profile dropdown first.
+2026-05-20 22:51:08,707 | INFO | Clicking profile dropdown to reveal Logout option.
+2026-05-20 22:51:08,707 | INFO | Clicking: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:51:08,707 | DEBUG | Waiting for CLICKABLE: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:51:08,758 | DEBUG | Element CLICKABLE: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:51:08,832 | DEBUG | Click successful: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:51:08,832 | INFO | Clicking: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:51:08,832 | DEBUG | Waiting for CLICKABLE: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:51:08,856 | DEBUG | Element CLICKABLE: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:51:08,947 | DEBUG | Click successful: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:51:08,948 | DEBUG | Waiting for URL to contain: 'login'
+2026-05-20 22:51:09,484 | INFO | URL now contains: 'login'
+2026-05-20 22:51:09,490 | DEBUG | Current URL: https://www.zenclass.in/login
+2026-05-20 22:51:09,491 | INFO | Logout complete. Current URL: https://www.zenclass.in/login
+2026-05-20 22:54:10,597 | DEBUG | Current URL: https://www.zenclass.in/dashboard
+2026-05-20 22:54:10,598 | DEBUG | Checking if new launch alert popup is displayed.
+2026-05-20 22:54:10,598 | DEBUG | Waiting for VISIBLE: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:54:10,625 | DEBUG | Element VISIBLE: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:54:10,637 | DEBUG | is_displayed = True: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:54:10,638 | DEBUG | Checking if popup close button is displayed and enabled.
+2026-05-20 22:54:10,638 | DEBUG | Waiting for VISIBLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:10,656 | DEBUG | Element VISIBLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:10,666 | DEBUG | is_displayed = True: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:10,666 | DEBUG | Waiting for VISIBLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:10,684 | DEBUG | Element VISIBLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:10,694 | DEBUG | is_enabled = True: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:10,695 | INFO | Popup Close Button — displayed=True, enabled=True
+2026-05-20 22:54:10,695 | INFO | Clicking: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:10,696 | DEBUG | Waiting for CLICKABLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:10,729 | DEBUG | Element CLICKABLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:10,805 | DEBUG | Click successful: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:10,805 | INFO | Starting logout flow.
+2026-05-20 22:54:10,806 | INFO | Attempting to click Logout button.
+2026-05-20 22:54:10,806 | INFO | Clicking: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:54:10,806 | DEBUG | Waiting for CLICKABLE: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:54:21,233 | ERROR | TIMEOUT — not clickable after 10s: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:54:21,233 | WARNING | Logout button not visible — opening profile dropdown first.
+2026-05-20 22:54:21,234 | INFO | Clicking profile dropdown to reveal Logout option.
+2026-05-20 22:54:21,234 | INFO | Clicking: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:54:21,235 | DEBUG | Waiting for CLICKABLE: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:54:21,290 | DEBUG | Element CLICKABLE: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:54:21,398 | DEBUG | Click successful: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:54:21,398 | INFO | Clicking: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:54:21,399 | DEBUG | Waiting for CLICKABLE: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:54:21,453 | DEBUG | Element CLICKABLE: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:54:21,544 | DEBUG | Click successful: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:54:21,545 | DEBUG | Waiting for URL to contain: 'login'
+2026-05-20 22:54:22,056 | INFO | URL now contains: 'login'
+2026-05-20 22:54:22,064 | DEBUG | Current URL: https://www.zenclass.in/login
+2026-05-20 22:54:22,065 | INFO | Logout complete. Current URL: https://www.zenclass.in/login
+2026-05-20 22:54:24,071 | DEBUG | Current URL: https://www.zenclass.in/login
+2026-05-20 22:54:24,078 | DEBUG | Current URL: https://www.zenclass.in/login
+2026-05-20 22:54:24,078 | INFO | is_logged_out=True
+2026-05-20 22:54:33,444 | DEBUG | Current URL: https://www.zenclass.in/dashboard
+2026-05-20 22:54:33,445 | DEBUG | Checking if new launch alert popup is displayed.
+2026-05-20 22:54:33,445 | DEBUG | Waiting for VISIBLE: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:54:33,474 | DEBUG | Element VISIBLE: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:54:33,486 | DEBUG | is_displayed = True: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:54:33,486 | DEBUG | Checking if popup close button is displayed and enabled.
+2026-05-20 22:54:33,486 | DEBUG | Waiting for VISIBLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:33,510 | DEBUG | Element VISIBLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:33,522 | DEBUG | is_displayed = True: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:33,522 | DEBUG | Waiting for VISIBLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:33,548 | DEBUG | Element VISIBLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:33,562 | DEBUG | is_enabled = True: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:33,562 | INFO | Popup Close Button — displayed=True, enabled=True
+2026-05-20 22:54:33,563 | INFO | Clicking: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:33,563 | DEBUG | Waiting for CLICKABLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:33,603 | DEBUG | Element CLICKABLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:33,686 | DEBUG | Click successful: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:33,687 | INFO | Starting logout flow.
+2026-05-20 22:54:33,687 | INFO | Attempting to click Logout button.
+2026-05-20 22:54:33,688 | INFO | Clicking: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:54:33,688 | DEBUG | Waiting for CLICKABLE: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:54:44,046 | ERROR | TIMEOUT — not clickable after 10s: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:54:44,047 | WARNING | Logout button not visible — opening profile dropdown first.
+2026-05-20 22:54:44,048 | INFO | Clicking profile dropdown to reveal Logout option.
+2026-05-20 22:54:44,048 | INFO | Clicking: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:54:44,049 | DEBUG | Waiting for CLICKABLE: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:54:44,094 | DEBUG | Element CLICKABLE: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:54:44,171 | DEBUG | Click successful: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:54:44,171 | INFO | Clicking: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:54:44,172 | DEBUG | Waiting for CLICKABLE: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:54:44,197 | DEBUG | Element CLICKABLE: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:54:44,251 | DEBUG | Click successful: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:54:44,251 | DEBUG | Waiting for URL to contain: 'login'
+2026-05-20 22:54:44,766 | INFO | URL now contains: 'login'
+2026-05-20 22:54:44,772 | DEBUG | Current URL: https://www.zenclass.in/login
+2026-05-20 22:54:44,773 | INFO | Logout complete. Current URL: https://www.zenclass.in/login
+2026-05-20 22:54:46,775 | INFO | Navigating to URL: https://www.zenclass.in/dashboard
+2026-05-20 22:54:49,038 | DEBUG | Current URL: https://www.zenclass.in/login
+2026-05-20 22:54:56,583 | DEBUG | Current URL: https://www.zenclass.in/dashboard
+2026-05-20 22:54:56,583 | DEBUG | Waiting for VISIBLE: ('xpath', "//p[contains(text(),'Dashboard')]")
+2026-05-20 22:54:56,611 | DEBUG | Element VISIBLE: ('xpath', "//p[contains(text(),'Dashboard')]")
+2026-05-20 22:54:56,624 | DEBUG | is_displayed = True: ('xpath', "//p[contains(text(),'Dashboard')]")
+2026-05-20 22:54:56,625 | DEBUG | Waiting for VISIBLE: ('xpath', "//p[contains(text(),'Welcome')]")
+2026-05-20 22:54:56,652 | DEBUG | Element VISIBLE: ('xpath', "//p[contains(text(),'Welcome')]")
+2026-05-20 22:54:56,665 | DEBUG | is_displayed = True: ('xpath', "//p[contains(text(),'Welcome')]")
+2026-05-20 22:54:56,665 | INFO | is_logged_in=True | URL ok=True, Dashboard Indicator=True, Welcome Msg=True
+2026-05-20 22:54:56,666 | DEBUG | Checking if new launch alert popup is displayed.
+2026-05-20 22:54:56,666 | DEBUG | Waiting for VISIBLE: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:54:56,691 | DEBUG | Element VISIBLE: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:54:56,699 | DEBUG | is_displayed = True: ('xpath', "//div[@class='mobile-app-promotion-main-div']")
+2026-05-20 22:54:56,700 | DEBUG | Checking if popup close button is displayed and enabled.
+2026-05-20 22:54:56,700 | DEBUG | Waiting for VISIBLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:56,728 | DEBUG | Element VISIBLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:56,738 | DEBUG | is_displayed = True: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:56,738 | DEBUG | Waiting for VISIBLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:56,760 | DEBUG | Element VISIBLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:56,772 | DEBUG | is_enabled = True: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:56,772 | INFO | Popup Close Button — displayed=True, enabled=True
+2026-05-20 22:54:56,773 | INFO | Clicking: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:56,774 | DEBUG | Waiting for CLICKABLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:56,807 | DEBUG | Element CLICKABLE: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:57,102 | DEBUG | Click successful: ('xpath', "//button[@aria-label='Close popup']")
+2026-05-20 22:54:57,103 | INFO | Starting logout flow.
+2026-05-20 22:54:57,103 | INFO | Attempting to click Logout button.
+2026-05-20 22:54:57,104 | INFO | Clicking: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:54:57,104 | DEBUG | Waiting for CLICKABLE: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:55:07,462 | ERROR | TIMEOUT — not clickable after 10s: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:55:07,463 | WARNING | Logout button not visible — opening profile dropdown first.
+2026-05-20 22:55:07,464 | INFO | Clicking profile dropdown to reveal Logout option.
+2026-05-20 22:55:07,464 | INFO | Clicking: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:55:07,465 | DEBUG | Waiting for CLICKABLE: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:55:07,509 | DEBUG | Element CLICKABLE: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:55:07,597 | DEBUG | Click successful: ('xpath', "//p[contains(@class,'avatar-profile-name')]")
+2026-05-20 22:55:07,597 | INFO | Clicking: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:55:07,598 | DEBUG | Waiting for CLICKABLE: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:55:07,626 | DEBUG | Element CLICKABLE: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:55:07,696 | DEBUG | Click successful: ('xpath', "//div[contains(text(),'Log out')]")
+2026-05-20 22:55:07,696 | DEBUG | Waiting for URL to contain: 'login'
+2026-05-20 22:55:08,213 | INFO | URL now contains: 'login'
+2026-05-20 22:55:08,220 | DEBUG | Current URL: https://www.zenclass.in/login
+2026-05-20 22:55:08,221 | INFO | Logout complete. Current URL: https://www.zenclass.in/login
+2026-05-20 22:55:10,230 | DEBUG | Current URL: https://www.zenclass.in/login
+2026-05-20 22:55:10,230 | DEBUG | Waiting for VISIBLE: ('xpath', "//p[contains(text(),'Dashboard')]")
+2026-05-20 22:55:20,641 | ERROR | TIMEOUT — not visible after 10s: ('xpath', "//p[contains(text(),'Dashboard')]")
+2026-05-20 22:55:20,642 | DEBUG | Element not found for is_displayed: ('xpath', "//p[contains(text(),'Dashboard')]")
+2026-05-20 22:55:20,642 | DEBUG | Waiting for VISIBLE: ('xpath', "//p[contains(text(),'Welcome')]")
+2026-05-20 22:55:31,014 | ERROR | TIMEOUT — not visible after 10s: ('xpath', "//p[contains(text(),'Welcome')]")
+2026-05-20 22:55:31,014 | DEBUG | Element not found for is_displayed: ('xpath', "//p[contains(text(),'Welcome')]")
+2026-05-20 22:55:31,015 | INFO | is_logged_in=False | URL ok=False, Dashboard Indicator=False, Welcome Msg=False

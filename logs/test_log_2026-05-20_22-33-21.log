@@ -1,0 +1,393 @@
+2026-05-20 22:33:21,567 | INFO | Opening Zen Portal login page.
+2026-05-20 22:33:21,567 | INFO | Navigating to URL: https://www.zenclass.in/login/
+2026-05-20 22:33:25,486 | INFO | Starting login flow for: '${SEN_USERNAME}'
+2026-05-20 22:33:25,486 | INFO | Entering email: '${SEN_USERNAME}'
+2026-05-20 22:33:25,487 | INFO | Typing '${SEN_USERNAME}' into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:33:25,487 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:33:25,538 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:33:25,784 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:33:25,785 | INFO | Entering password: ***
+2026-05-20 22:33:25,785 | INFO | Typing '***************' into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:33:25,786 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:33:25,814 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:33:25,951 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:33:25,951 | INFO | Clicking the Sign In button.
+2026-05-20 22:33:25,952 | INFO | Clicking: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:33:25,952 | DEBUG | Waiting for CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:33:25,980 | DEBUG | Element CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:33:26,090 | DEBUG | Click successful: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:33:26,090 | INFO | Login form submitted.
+2026-05-20 22:33:28,098 | DEBUG | Current URL: https://www.zenclass.in/login/
+2026-05-20 22:33:31,793 | INFO | Opening Zen Portal login page.
+2026-05-20 22:33:31,794 | INFO | Navigating to URL: https://www.zenclass.in/login/
+2026-05-20 22:33:35,807 | INFO | Starting login flow for: '${SEN_USERNAME}'
+2026-05-20 22:33:35,809 | INFO | Entering email: '${SEN_USERNAME}'
+2026-05-20 22:33:35,811 | INFO | Typing '${SEN_USERNAME}' into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:33:35,811 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:33:35,846 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:33:36,073 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:33:36,074 | INFO | Entering password: ***
+2026-05-20 22:33:36,074 | INFO | Typing '***************' into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:33:36,075 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:33:36,105 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:33:36,239 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:33:36,239 | INFO | Clicking the Sign In button.
+2026-05-20 22:33:36,240 | INFO | Clicking: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:33:36,240 | DEBUG | Waiting for CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:33:36,273 | DEBUG | Element CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:33:36,364 | DEBUG | Click successful: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:33:36,364 | INFO | Login form submitted.
+2026-05-20 22:34:33,483 | INFO | Opening Zen Portal login page.
+2026-05-20 22:34:33,483 | INFO | Navigating to URL: https://www.zenclass.in/login/
+2026-05-20 22:34:37,266 | INFO | Starting login flow for: 'invalid_user@guvi.com'
+2026-05-20 22:34:37,267 | INFO | Entering email: 'invalid_user@guvi.com'
+2026-05-20 22:34:37,268 | INFO | Typing 'invalid_user@guvi.com' into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:34:37,268 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:34:37,318 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:34:37,609 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:34:37,609 | INFO | Entering password: ***
+2026-05-20 22:34:37,610 | INFO | Typing '*************' into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:34:37,610 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:34:37,632 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:34:37,749 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:34:37,749 | INFO | Clicking the Sign In button.
+2026-05-20 22:34:37,750 | INFO | Clicking: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:34:37,750 | DEBUG | Waiting for CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:34:37,778 | DEBUG | Element CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:34:37,856 | DEBUG | Click successful: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:34:37,857 | INFO | Login form submitted.
+2026-05-20 22:34:39,863 | DEBUG | Current URL: https://www.zenclass.in/login/
+2026-05-20 22:34:39,869 | DEBUG | Current URL: https://www.zenclass.in/login/
+2026-05-20 22:34:39,869 | DEBUG | Is on login page: True
+2026-05-20 22:34:43,008 | INFO | Opening Zen Portal login page.
+2026-05-20 22:34:43,008 | INFO | Navigating to URL: https://www.zenclass.in/login/
+2026-05-20 22:34:46,768 | INFO | Starting login flow for: ''
+2026-05-20 22:34:46,768 | INFO | Entering email: ''
+2026-05-20 22:34:46,769 | INFO | Typing '' into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:34:46,769 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:34:46,801 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:34:46,970 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:34:46,970 | INFO | Entering password: ***
+2026-05-20 22:34:46,971 | INFO | Typing '' into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:34:46,971 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:34:47,013 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:34:47,090 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:34:47,090 | INFO | Clicking the Sign In button.
+2026-05-20 22:34:47,090 | INFO | Clicking: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:34:47,091 | DEBUG | Waiting for CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:34:47,124 | DEBUG | Element CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:34:47,218 | DEBUG | Click successful: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:34:47,218 | INFO | Login form submitted.
+2026-05-20 22:34:48,223 | DEBUG | Current URL: https://www.zenclass.in/login/
+2026-05-20 22:34:48,223 | DEBUG | Is on login page: True
+2026-05-20 22:34:51,135 | INFO | Opening Zen Portal login page.
+2026-05-20 22:34:51,135 | INFO | Navigating to URL: https://www.zenclass.in/login/
+2026-05-20 22:34:54,855 | INFO | Starting login flow for: '${SEN_USERNAME}'
+2026-05-20 22:34:54,855 | INFO | Entering email: '${SEN_USERNAME}'
+2026-05-20 22:34:54,855 | INFO | Typing '${SEN_USERNAME}' into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:34:54,856 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:34:54,922 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:34:55,231 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:34:55,232 | INFO | Entering password: ***
+2026-05-20 22:34:55,232 | INFO | Typing '*************' into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:34:55,233 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:34:55,274 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:34:55,418 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:34:55,419 | INFO | Clicking the Sign In button.
+2026-05-20 22:34:55,419 | INFO | Clicking: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:34:55,419 | DEBUG | Waiting for CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:34:55,451 | DEBUG | Element CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:34:55,523 | DEBUG | Click successful: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:34:55,523 | INFO | Login form submitted.
+2026-05-20 22:34:57,535 | DEBUG | Current URL: https://www.zenclass.in/login/
+2026-05-20 22:34:57,535 | DEBUG | Is on login page: True
+2026-05-20 22:35:00,540 | INFO | Opening Zen Portal login page.
+2026-05-20 22:35:00,540 | INFO | Navigating to URL: https://www.zenclass.in/login/
+2026-05-20 22:35:04,806 | INFO | Starting login flow for: '"     "'
+2026-05-20 22:35:04,806 | INFO | Entering email: '"     "'
+2026-05-20 22:35:04,806 | INFO | Typing '"     "' into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:04,806 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:04,844 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:05,008 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:05,008 | INFO | Entering password: ***
+2026-05-20 22:35:05,009 | INFO | Typing '*******' into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:05,009 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:05,029 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:05,139 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:05,139 | INFO | Clicking the Sign In button.
+2026-05-20 22:35:05,139 | INFO | Clicking: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:35:05,140 | DEBUG | Waiting for CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:35:05,165 | DEBUG | Element CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:35:05,228 | DEBUG | Click successful: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:35:05,228 | INFO | Login form submitted.
+2026-05-20 22:35:06,239 | DEBUG | Current URL: https://www.zenclass.in/login/
+2026-05-20 22:35:06,239 | DEBUG | Is on login page: True
+2026-05-20 22:35:09,323 | INFO | Opening Zen Portal login page.
+2026-05-20 22:35:09,324 | INFO | Navigating to URL: https://www.zenclass.in/login/
+2026-05-20 22:35:13,100 | DEBUG | Checking if email field is displayed.
+2026-05-20 22:35:13,100 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:13,138 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:13,144 | DEBUG | is_displayed = True: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:13,144 | DEBUG | Checking if email field is enabled.
+2026-05-20 22:35:13,144 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:13,175 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:13,186 | DEBUG | is_enabled = True: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:16,151 | INFO | Opening Zen Portal login page.
+2026-05-20 22:35:16,152 | INFO | Navigating to URL: https://www.zenclass.in/login/
+2026-05-20 22:35:19,972 | DEBUG | Checking if password field is displayed.
+2026-05-20 22:35:19,972 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:19,998 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:20,007 | DEBUG | is_displayed = True: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:20,007 | DEBUG | Checking if password field is enabled.
+2026-05-20 22:35:20,007 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:20,024 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:20,033 | DEBUG | is_enabled = True: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:22,979 | INFO | Opening Zen Portal login page.
+2026-05-20 22:35:22,979 | INFO | Navigating to URL: https://www.zenclass.in/login/
+2026-05-20 22:35:27,387 | INFO | Entering email: 'testuser@example.com'
+2026-05-20 22:35:27,387 | INFO | Typing 'testuser@example.com' into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:27,387 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:27,483 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:27,699 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:27,699 | DEBUG | Waiting for PRESENT: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:27,707 | DEBUG | Element PRESENT: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:27,718 | DEBUG | Attribute 'value' = 'testuser@example.com' from: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:27,718 | DEBUG | Email field value: 'testuser@example.com'
+2026-05-20 22:35:30,713 | INFO | Opening Zen Portal login page.
+2026-05-20 22:35:30,713 | INFO | Navigating to URL: https://www.zenclass.in/login/
+2026-05-20 22:35:34,502 | INFO | Entering password: ***
+2026-05-20 22:35:34,502 | INFO | Typing '************' into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:34,503 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:34,528 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:34,703 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:34,703 | DEBUG | Waiting for PRESENT: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:34,722 | DEBUG | Element PRESENT: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:34,732 | DEBUG | Attribute 'value' = 'TestPass@123' from: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:34,733 | DEBUG | Password field has a value (masked).
+2026-05-20 22:35:37,681 | INFO | Opening Zen Portal login page.
+2026-05-20 22:35:37,682 | INFO | Navigating to URL: https://www.zenclass.in/login/
+2026-05-20 22:35:41,402 | INFO | Entering email: 'testuser@example.com'
+2026-05-20 22:35:41,402 | INFO | Typing 'testuser@example.com' into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:41,402 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:41,431 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:41,657 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:41,657 | INFO | Entering password: ***
+2026-05-20 22:35:41,658 | INFO | Typing '************' into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:41,658 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:41,683 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:41,834 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:41,834 | DEBUG | Checking if sign-in button is displayed.
+2026-05-20 22:35:41,835 | DEBUG | Waiting for VISIBLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:35:41,854 | DEBUG | Element VISIBLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:35:41,861 | DEBUG | is_displayed = True: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:35:41,861 | DEBUG | Checking if sign-in button is enabled.
+2026-05-20 22:35:41,861 | DEBUG | Waiting for VISIBLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:35:41,875 | DEBUG | Element VISIBLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:35:41,883 | DEBUG | is_enabled = True: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:35:44,850 | INFO | Opening Zen Portal login page.
+2026-05-20 22:35:44,851 | INFO | Navigating to URL: https://www.zenclass.in/login/
+2026-05-20 22:35:47,008 | INFO | Entering email: '${SEN_USERNAME}'
+2026-05-20 22:35:47,009 | INFO | Typing '${SEN_USERNAME}' into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:47,009 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:47,052 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:47,206 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:35:47,207 | INFO | Entering password: ***
+2026-05-20 22:35:47,207 | INFO | Typing '***************' into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:47,207 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:47,228 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:47,347 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:35:47,348 | INFO | Clicking the Sign In button.
+2026-05-20 22:35:47,348 | INFO | Clicking: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:35:47,348 | DEBUG | Waiting for CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:35:47,378 | DEBUG | Element CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:35:47,443 | DEBUG | Click successful: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:35:49,454 | DEBUG | Current URL: https://www.zenclass.in/login/
+2026-05-20 22:35:53,153 | INFO | Opening Zen Portal login page.
+2026-05-20 22:35:53,153 | INFO | Navigating to URL: https://www.zenclass.in/login/
+2026-05-20 22:35:57,229 | INFO | Clicking the Sign In button.
+2026-05-20 22:35:57,229 | INFO | Clicking: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:35:57,230 | DEBUG | Waiting for CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:35:57,284 | DEBUG | Element CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:35:57,353 | DEBUG | Click successful: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:35:58,359 | DEBUG | Current URL: https://www.zenclass.in/login/
+2026-05-20 22:35:58,359 | DEBUG | Is on login page: True
+2026-05-20 22:36:01,424 | INFO | Opening Zen Portal login page.
+2026-05-20 22:36:01,424 | INFO | Navigating to URL: https://www.zenclass.in/login/
+2026-05-20 22:36:06,849 | INFO | Starting login flow for: 'invalid_user@guvi.com'
+2026-05-20 22:36:06,850 | INFO | Entering email: 'invalid_user@guvi.com'
+2026-05-20 22:36:06,850 | INFO | Typing 'invalid_user@guvi.com' into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:36:06,851 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:36:06,879 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:36:07,087 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:36:07,087 | INFO | Entering password: ***
+2026-05-20 22:36:07,091 | INFO | Typing '*************' into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:36:07,091 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:36:07,110 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:36:07,217 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:36:07,217 | INFO | Clicking the Sign In button.
+2026-05-20 22:36:07,217 | INFO | Clicking: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:36:07,218 | DEBUG | Waiting for CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:36:07,244 | DEBUG | Element CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:36:07,318 | DEBUG | Click successful: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:36:07,318 | INFO | Login form submitted.
+2026-05-20 22:36:09,319 | DEBUG | Waiting for VISIBLE: ('xpath', "//p[contains(text(), 'Incorrect email!') or contains(text(),'Email required!')]")
+2026-05-20 22:36:19,720 | ERROR | TIMEOUT — not visible after 10s: ('xpath', "//p[contains(text(), 'Incorrect email!') or contains(text(),'Email required!')]")
+2026-05-20 22:36:19,721 | DEBUG | No email error message found.
+2026-05-20 22:36:19,721 | DEBUG | Waiting for VISIBLE: ('xpath', "//p[contains(text(), 'Incorrect password!') or contains(text(), 'Password required!') or contains(text(), 'Email and password required!')]")
+2026-05-20 22:36:30,111 | ERROR | TIMEOUT — not visible after 10s: ('xpath', "//p[contains(text(), 'Incorrect password!') or contains(text(), 'Password required!') or contains(text(), 'Email and password required!')]")
+2026-05-20 22:36:30,112 | DEBUG | No password error message found.
+2026-05-20 22:36:30,121 | DEBUG | Current URL: https://www.zenclass.in/login/
+2026-05-20 22:36:30,122 | DEBUG | Is on login page: True
+2026-05-20 22:36:33,180 | INFO | Opening Zen Portal login page.
+2026-05-20 22:36:33,180 | INFO | Navigating to URL: https://www.zenclass.in/login/
+2026-05-20 22:36:39,649 | INFO | Entering email: ''
+2026-05-20 22:36:39,649 | INFO | Typing '' into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:36:39,649 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:36:39,676 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:36:39,795 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:36:39,795 | DEBUG | Waiting for PRESENT: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:36:39,804 | DEBUG | Element PRESENT: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:36:39,813 | DEBUG | Attribute 'value' = '' from: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:36:39,813 | DEBUG | Email field value: ''
+2026-05-20 22:36:39,814 | INFO | Entering password: ***
+2026-05-20 22:36:39,815 | INFO | Typing '' into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:36:39,815 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:36:39,837 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:36:39,909 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:36:39,910 | DEBUG | Waiting for PRESENT: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:36:39,918 | DEBUG | Element PRESENT: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:36:39,923 | DEBUG | Attribute 'value' = '' from: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:36:39,923 | DEBUG | Password field has a value (masked).
+2026-05-20 22:36:39,924 | INFO | Clicking the Sign In button.
+2026-05-20 22:36:39,924 | INFO | Clicking: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:36:39,924 | DEBUG | Waiting for CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:36:39,950 | DEBUG | Element CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:36:40,015 | DEBUG | Click successful: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:36:40,015 | DEBUG | Waiting for VISIBLE: ('xpath', "//p[contains(text(), 'Incorrect email!') or contains(text(),'Email required!')]")
+2026-05-20 22:36:50,409 | ERROR | TIMEOUT — not visible after 10s: ('xpath', "//p[contains(text(), 'Incorrect email!') or contains(text(),'Email required!')]")
+2026-05-20 22:36:50,410 | DEBUG | No email error message found.
+2026-05-20 22:36:50,410 | DEBUG | Waiting for VISIBLE: ('xpath', "//p[contains(text(), 'Incorrect password!') or contains(text(), 'Password required!') or contains(text(), 'Email and password required!')]")
+2026-05-20 22:36:50,445 | DEBUG | Element VISIBLE: ('xpath', "//p[contains(text(), 'Incorrect password!') or contains(text(), 'Password required!') or contains(text(), 'Email and password required!')]")
+2026-05-20 22:36:50,470 | DEBUG | Got text 'Email and password required!' from: ('xpath', "//p[contains(text(), 'Incorrect password!') or contains(text(), 'Password required!') or contains(text(), 'Email and password required!')]")
+2026-05-20 22:36:50,470 | DEBUG | Password error text: 'Email and password required!'
+2026-05-20 22:36:53,442 | INFO | Opening Zen Portal login page.
+2026-05-20 22:36:53,442 | INFO | Navigating to URL: https://www.zenclass.in/login/
+2026-05-20 22:36:55,560 | INFO | Entering email: ''
+2026-05-20 22:36:55,560 | INFO | Typing '' into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:36:55,561 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:36:55,598 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:36:55,710 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:36:55,710 | DEBUG | Waiting for PRESENT: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:36:55,718 | DEBUG | Element PRESENT: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:36:55,727 | DEBUG | Attribute 'value' = '' from: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:36:55,727 | DEBUG | Email field value: ''
+2026-05-20 22:36:55,728 | INFO | Entering password: ***
+2026-05-20 22:36:55,728 | INFO | Typing '************' into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:36:55,728 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:36:55,753 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:36:55,923 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:36:55,923 | DEBUG | Waiting for PRESENT: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:36:55,936 | DEBUG | Element PRESENT: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:36:55,946 | DEBUG | Attribute 'value' = 'TestPass@123' from: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:36:55,946 | DEBUG | Password field has a value (masked).
+2026-05-20 22:36:55,947 | INFO | Clicking the Sign In button.
+2026-05-20 22:36:55,948 | INFO | Clicking: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:36:55,948 | DEBUG | Waiting for CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:36:55,985 | DEBUG | Element CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:36:56,077 | DEBUG | Click successful: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:36:56,077 | DEBUG | Waiting for VISIBLE: ('xpath', "//p[contains(text(), 'Incorrect email!') or contains(text(),'Email required!')]")
+2026-05-20 22:36:56,097 | DEBUG | Element VISIBLE: ('xpath', "//p[contains(text(), 'Incorrect email!') or contains(text(),'Email required!')]")
+2026-05-20 22:36:56,113 | DEBUG | Got text 'Email required!' from: ('xpath', "//p[contains(text(), 'Incorrect email!') or contains(text(),'Email required!')]")
+2026-05-20 22:36:56,114 | DEBUG | Email error text: 'Email required!'
+2026-05-20 22:36:56,114 | DEBUG | Waiting for VISIBLE: ('xpath', "//p[contains(text(), 'Incorrect password!') or contains(text(), 'Password required!') or contains(text(), 'Email and password required!')]")
+2026-05-20 22:37:06,117 | ERROR | TIMEOUT — not visible after 10s: ('xpath', "//p[contains(text(), 'Incorrect password!') or contains(text(), 'Password required!') or contains(text(), 'Email and password required!')]")
+2026-05-20 22:37:06,117 | DEBUG | No password error message found.
+2026-05-20 22:37:09,270 | INFO | Opening Zen Portal login page.
+2026-05-20 22:37:09,270 | INFO | Navigating to URL: https://www.zenclass.in/login/
+2026-05-20 22:37:13,136 | INFO | Entering email: 'testuser@example.com'
+2026-05-20 22:37:13,136 | INFO | Typing 'testuser@example.com' into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:37:13,137 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:37:13,174 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:37:13,388 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:37:13,388 | DEBUG | Waiting for PRESENT: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:37:13,402 | DEBUG | Element PRESENT: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:37:13,410 | DEBUG | Attribute 'value' = 'testuser@example.com' from: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:37:13,411 | DEBUG | Email field value: 'testuser@example.com'
+2026-05-20 22:37:13,411 | INFO | Entering password: ***
+2026-05-20 22:37:13,412 | INFO | Typing '' into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:37:13,412 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:37:13,431 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:37:13,535 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:37:13,536 | DEBUG | Waiting for PRESENT: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:37:13,557 | DEBUG | Element PRESENT: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:37:13,569 | DEBUG | Attribute 'value' = '' from: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:37:13,570 | DEBUG | Password field has a value (masked).
+2026-05-20 22:37:13,570 | INFO | Clicking the Sign In button.
+2026-05-20 22:37:13,571 | INFO | Clicking: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:37:13,571 | DEBUG | Waiting for CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:37:13,603 | DEBUG | Element CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:37:13,726 | DEBUG | Click successful: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:37:13,726 | DEBUG | Waiting for VISIBLE: ('xpath', "//p[contains(text(), 'Incorrect email!') or contains(text(),'Email required!')]")
+2026-05-20 22:37:24,032 | ERROR | TIMEOUT — not visible after 10s: ('xpath', "//p[contains(text(), 'Incorrect email!') or contains(text(),'Email required!')]")
+2026-05-20 22:37:24,033 | DEBUG | No email error message found.
+2026-05-20 22:37:24,033 | DEBUG | Waiting for VISIBLE: ('xpath', "//p[contains(text(), 'Incorrect password!') or contains(text(), 'Password required!') or contains(text(), 'Email and password required!')]")
+2026-05-20 22:37:24,063 | DEBUG | Element VISIBLE: ('xpath', "//p[contains(text(), 'Incorrect password!') or contains(text(), 'Password required!') or contains(text(), 'Email and password required!')]")
+2026-05-20 22:37:24,081 | DEBUG | Got text 'Password required!' from: ('xpath', "//p[contains(text(), 'Incorrect password!') or contains(text(), 'Password required!') or contains(text(), 'Email and password required!')]")
+2026-05-20 22:37:24,081 | DEBUG | Password error text: 'Password required!'
+2026-05-20 22:37:27,132 | INFO | Opening Zen Portal login page.
+2026-05-20 22:37:27,132 | INFO | Navigating to URL: https://www.zenclass.in/login/
+2026-05-20 22:37:30,986 | INFO | Starting login flow for: '${SEN_USERNAME}'
+2026-05-20 22:37:30,986 | INFO | Entering email: '${SEN_USERNAME}'
+2026-05-20 22:37:30,987 | INFO | Typing '${SEN_USERNAME}' into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:37:30,988 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:37:31,029 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:37:31,315 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:37:31,315 | INFO | Entering password: ***
+2026-05-20 22:37:31,315 | INFO | Typing '***************' into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:37:31,316 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:37:31,335 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:37:31,466 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:37:31,467 | INFO | Clicking the Sign In button.
+2026-05-20 22:37:31,467 | INFO | Clicking: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:37:31,467 | DEBUG | Waiting for CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:37:31,501 | DEBUG | Element CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:37:31,583 | DEBUG | Click successful: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:37:31,583 | INFO | Login form submitted.
+2026-05-20 22:38:08,275 | INFO | Opening Zen Portal login page.
+2026-05-20 22:38:08,275 | INFO | Navigating to URL: https://www.zenclass.in/login/
+2026-05-20 22:38:12,349 | INFO | Starting login flow for: '${SEN_USERNAME}'
+2026-05-20 22:38:12,350 | INFO | Entering email: '${SEN_USERNAME}'
+2026-05-20 22:38:12,350 | INFO | Typing '${SEN_USERNAME}' into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:38:12,351 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:38:12,462 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:38:12,687 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:38:12,687 | INFO | Entering password: ***
+2026-05-20 22:38:12,687 | INFO | Typing '***************' into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:38:12,688 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:38:12,711 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:38:12,863 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:38:12,864 | INFO | Clicking the Sign In button.
+2026-05-20 22:38:12,864 | INFO | Clicking: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:38:12,864 | DEBUG | Waiting for CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:38:12,884 | DEBUG | Element CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:38:12,975 | DEBUG | Click successful: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:38:12,975 | INFO | Login form submitted.
+2026-05-20 22:38:49,391 | INFO | Opening Zen Portal login page.
+2026-05-20 22:38:49,391 | INFO | Navigating to URL: https://www.zenclass.in/login/
+2026-05-20 22:38:51,493 | INFO | Starting login flow for: '${SEN_USERNAME}'
+2026-05-20 22:38:51,493 | INFO | Entering email: '${SEN_USERNAME}'
+2026-05-20 22:38:51,494 | INFO | Typing '${SEN_USERNAME}' into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:38:51,494 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:38:51,555 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:38:51,737 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your mail']")
+2026-05-20 22:38:51,737 | INFO | Entering password: ***
+2026-05-20 22:38:51,737 | INFO | Typing '***************' into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:38:51,737 | DEBUG | Waiting for VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:38:51,764 | DEBUG | Element VISIBLE: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:38:51,858 | DEBUG | Text entered into: ('xpath', "//input[@placeholder='Enter your password ']")
+2026-05-20 22:38:51,858 | INFO | Clicking the Sign In button.
+2026-05-20 22:38:51,858 | INFO | Clicking: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:38:51,859 | DEBUG | Waiting for CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:38:51,882 | DEBUG | Element CLICKABLE: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:38:51,948 | DEBUG | Click successful: ('xpath', "//button[text()='Sign in']")
+2026-05-20 22:38:51,949 | INFO | Login form submitted.
